@@ -1,6 +1,10 @@
+import {
+  Container,
+} from '../styles/pages/MainPage';
+
 export default function Home() {
   return (
-    <div id="container" >
+    <Container>
       <header>
         <div className="header-text" >
           <h1>Enshort, expand or create a custom URL!</h1>
@@ -26,6 +30,6 @@ export default function Home() {
           </button>
         </form>
       </main>
-    </div>
+    </Container>
   )
 }

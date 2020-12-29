@@ -1,35 +1,42 @@
 import {
   Container,
+  Header,
+  Title,
+  Subtitle,
+  FormContainer,
+  InputContainer,
+  InputTitle,
+  Input,
+  Button,
+  ButtonText,
 } from '../styles/pages/MainPage';
 
 export default function Home() {
   return (
     <Container>
-      <header>
-        <div className="header-text" >
-          <h1>Enshort, expand or create a custom URL!</h1>
+      <Header>
+        <Title>Enshort, expand or create a custom URL!</Title>
 
-          <p>Convert an URL to a giant or tiny one!</p>
-        </div>
-      </header>
+        <Subtitle>Convert an URL to a giant or tiny one!</Subtitle>
+      </Header>
 
-      <main>
-        <form>
-          <fieldset>
-            <h2>Original URL</h2>
+      <FormContainer>
+        <InputContainer>
+          <InputTitle>Original URL</InputTitle>
 
-            <input type="text" />
+          <Input type="text" />
+        </InputContainer>
 
-            <h2>Custom name</h2>
+        <InputContainer>
+          <InputTitle>Custom name</InputTitle>
 
-            <input type="text" />
-          </fieldset>
+          <Input type="text" />
+        </InputContainer>
 
-          <button type="submit">
-            <h1>Create URL</h1>
-          </button>
-        </form>
-      </main>
+        <Button type="submit">
+          <ButtonText>Create URL</ButtonText>
+        </Button>
+      </FormContainer>
     </Container>
   )
 }

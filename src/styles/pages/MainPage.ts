@@ -12,19 +12,22 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
-
 `;
 
 export const Title = styled.h1`
+    width: 600px;
+    padding-bottom: 32px;
 
+    font-size: 50px;
+    text-align: center;
 `;
 
 export const Subtitle = styled.p`
-
+    font-size: 24px;
+    text-align: center;
 `;
 
-export const FormContainer = styled.form`
-
+export const FormContainer = styled.div`
 `;
 
 export const InputContainer = styled.div`

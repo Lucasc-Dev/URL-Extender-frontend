@@ -20,23 +20,23 @@ export default function Home() {
         <Subtitle>Convert an URL to a giant or tiny one!</Subtitle>
       </Header>
 
-      <FormContainer>
-        <InputContainer>
-          <InputTitle>Original URL</InputTitle>
+        <FormContainer>
+          <InputContainer>
+            <InputTitle>Original URL</InputTitle>
 
-          <Input type="text" />
-        </InputContainer>
+            <Input type="text" />
+          </InputContainer>
 
-        <InputContainer>
-          <InputTitle>Custom name</InputTitle>
+          <InputContainer>
+            <InputTitle>Custom name</InputTitle>
 
-          <Input type="text" />
-        </InputContainer>
+            <Input type="text" />
+          </InputContainer>
 
-        <Button type="submit">
-          <ButtonText>Create URL</ButtonText>
-        </Button>
-      </FormContainer>
+          <Button type="submit">
+            <ButtonText>Create URL</ButtonText>
+          </Button>
+        </FormContainer>
     </Container>
   )
 }
